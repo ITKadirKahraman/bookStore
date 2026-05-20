@@ -1,0 +1,10 @@
+html, body {
+    margin: var(--size-0);
+    padding: var(--size-0);
+    width: var(--size-100P);
+    background: linear-gradient(86deg, #667eea 0%, violet 100%);
+}
+
+main {
+    min-height: calc(var(--size-100vh) - var(--size-188px));
+}

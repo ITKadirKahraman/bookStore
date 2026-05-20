@@ -1,0 +1,52 @@
+:root {
+    /*
+    ****** COLORS
+    */
+    --black: rgb(0, 0, 0);
+    --background-color: rgb(10, 37, 64);
+    --ivory: rgb(255, 255, 240);
+    --separator-color: rgb(9, 132, 227);
+    --violet: violet;
+
+    /*
+    ****** Fonts
+    */
+    --font: 'Courier New', Courier, monospace;
+
+    /*
+    ****** size
+    */
+    --size-0: 0;
+
+    /*
+    ****** px
+    */
+    --size-1px: 1px;
+    --size-2px: 2px;
+    --size-5px: 5px;
+    --size-10px: 10px;
+    --size-15px: 15px;
+    --size-18px: 18px;
+    --size-20px: 20px;
+    --size-24px: 24px;
+    --size-25px: 25px;
+    --size-48px: 48px;
+    --size-96px: 96px;
+    --size-99px: 99px;
+    --size-100px: 100px;
+    --size-188px: 188px;
+    --size-220px: 220px;
+    --size-280px: 280px;
+    --size-480px: 480px;
+
+    /*
+    ****** %
+    */
+    --size-32P: 32.5%;
+    --size-100P: 100%;
+
+    /*
+    ****** vh
+    */
+    --size-100vh: 100vh;
+}

@@ -1,0 +1,208 @@
+/*
+****** header
+*/
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+h1 {
+    margin: var(--size-0);
+    padding: var(--size-0);
+    text-align: center;
+    font-size: var(--size-24px);
+    color: var(--black);
+}
+
+/*
+****** unordered list
+*/
+
+.ulHeader {
+    margin: var(--size-0);
+    padding: var(--size-0);
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: var(--size-10px);
+}
+
+li {
+    margin: var(--size-0);
+    padding: var(--size-0);
+}
+
+li img {
+    height: var(--size-48px);
+    width: var(--size-48px);
+}
+
+/*
+****** separator
+*/
+
+.separator {
+    width: var(--size-99P);
+    margin: var(--size-0);
+    padding: var(--size-0);
+    height: var(--size-1px);
+    border: solid var(--size-1px);
+    border-color: var(--separator-color);
+    background: var(--separator-color);
+}
+
+/*
+****** book card
+*/
+
+.bookCard {
+    display: flex;
+    position: unset;
+    flex-direction: column;
+    height: var(--size-480px);
+    width: var(--size-280px);
+    border: var(--size-2px) solid var(--black);
+    border-radius: var(--size-15px);
+    background: var(--background-color);
+    color: var(--ivory);
+    padding: var(--size-0);
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+/* book card header */
+
+.bookHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.bookHeader h2 {
+    display: flex;
+    font-size: var(--size-20px);
+}
+
+/* book card book image */
+
+figure {
+    margin: var(--size-0);
+    padding: var(--size-0);
+    height: var(--size-100px);
+    width: var(--size-280px);
+}
+
+figure img {
+    height: var(--size-96px);
+    width: var(--size-96px);
+    padding: var(--size-0) var(--size-32P) var(--size-0) var(--size-32P) ;
+}
+
+/* book card price, likes, heart and information of book */
+ul {
+    margin: var(--size-10px) var(--size-0) var(--size-0) var(--size-0);
+    padding: var(--size-0);
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: var(--size-10px);
+}
+
+.price {
+    margin: var(--size-0);
+    padding: var(--size-0) var(--size-100px) var(--size-0) var(--size-10px);
+    color: var(--violet);
+    font-size: var(--size-20px);
+}
+
+.likes {
+    margin: var(--size-0);
+    color: var(--violet);
+    font-size: var(--size-20px);
+}
+
+.articleBooksInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: column;
+    padding: var(--size-10px);
+}
+
+.booksInfo {
+    margin: var(--size-0);
+}
+
+/* comments section */
+h3 {
+    margin: var(--size-0);
+    padding: var(--size-10px);
+    font-size: var(--size-18px);
+}
+
+.commentSection {
+    max-height: 120px;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: var(--violet) var(--black);
+}
+
+
+.commentShow {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: var(--size-20px);
+}
+
+.userNameComment {
+    padding-left: var(--size-5px);
+}
+
+.outputComment {
+    margin: var(--size-0);
+    padding-left: var(--size-10px);
+}
+
+.comments {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    padding: var(--size-5px);
+    gap: var(--size-10px);
+}
+
+/* input botton */
+
+.navBottom {
+    display: flex;
+    justify-content: center;
+    gap: var(--size-5px);
+    padding: var(--size-5px);
+}
+
+.inputComment {
+    width: var(--size-220px);
+    background-color: violet;
+    border-bottom: var(--size-5px) solid rebeccapurple;
+}
+
+.btnSend {
+    padding: var(--size-0);
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.btnSend img {
+    width: var(--size-25px);
+    height: var(--size-25px);
+    display: block;
+}
