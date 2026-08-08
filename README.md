@@ -4,7 +4,7 @@
 
 ### Eine interaktive BookStore-Webanwendung mit JavaScript
 
-<img src="./assets/logo/bookStoreCover.svg" alt="BookStore Cover" width="180">
+<img src="./assets/logo/bookStoreCover.png" alt="BookStore Cover" width="180">
 
 <br>
 
