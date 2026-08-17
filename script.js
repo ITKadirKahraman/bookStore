@@ -22,20 +22,16 @@ function toggleLike(index) {
     }else {
         books[index].likes--;
     }
-
     renderBooks();
 }
 
 function renderComments(comments) {
     let html = "";
-
     for (let index = 0; index < comments.length; index++) {
         let comment = comments[index];
-
         html += `<span class="objectName" id="objectName">[${comment.name}]</span>
                  <span class="objectComment" id="objectComment">${comment.comment}</span>`;
     }
-
     return html;
 }
 
@@ -57,18 +53,14 @@ function userNameInput() {
 function addComment(index) {
     const input = document.getElementById(`inputComment-${index}`);
     const text = input.value.trim();
-
     if(text === "") return;
-    
     const newComment = {
         name: "Kadir",
         comment: text
     };
-
     books[index].comments.push(newComment);
     saveToLocalStorage();
     input.value = "";
-
     renderBooks();
 }
 
